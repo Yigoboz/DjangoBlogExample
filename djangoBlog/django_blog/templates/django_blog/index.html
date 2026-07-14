@@ -67,7 +67,7 @@
 								<section>
 									<span class="icon solid major fa-code"></span>
 									<h3>{{ service.title }}</h3>
-									<p>{{ service.description }}</p>
+									<p>{{ service.description|truncatechars:100 }}</p>
 								</section>
 								{% endfor %}
 							</div>

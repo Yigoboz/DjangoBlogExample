@@ -33,15 +33,11 @@
 					<section id="main" class="wrapper">
 						<div class="inner">
 							<div class="features">
-                                {% for service in services %}
-								<a href="{% url 'service_detail' service.slug %}">
-									<section>
-										<span class="icon solid major fa-code"></span>
-										<h3>{{ service.title }}</h3>
-										<p>{{ service.description|truncatechars:100 }}</p>
-									</section>
-								</a>
-                                {% endfor %}
+								<section>
+									<span class="icon solid major fa-code"></span>
+									<h3>{{ service.title }}</h3>
+									<p>{{ service.description|truncatechars:100 }}</p>
+								</section>
                                 </div>
 						</div>
 					</section>

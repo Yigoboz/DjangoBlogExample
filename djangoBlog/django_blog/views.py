@@ -10,4 +10,4 @@ def index(request):
     featured = Service.objects.filter(is_featured=True)
     latest_models = Blog.objects.all()[:3]
 
-    return render(request,template_name='django_blog/index.html',context={'featured':featured,'latest_models':latest_models'})
+    return render(request,template_name='django_blog/index.html',context={'featured':featured,'latest_models':latest_models})

@@ -1,6 +1,8 @@
 from django.db import models
+from django.db.backends.ddl_references import ForeignKeyName
 from django.utils.text import slugify
 from django.utils import timezone
+from django.contrib.auth.models import User
 
 # Create your models here.
 
@@ -10,6 +12,7 @@ class Blog(models.Model):
     slug = models.SlugField(unique=True,blank=True)
     image = models.CharField(max_length=755,null=True,blank=True)
     created_at = models.DateTimeField(default=timezone.now)
+    author = models.ForeignKey(User, on_delete=models.CASCADE())
 
     def __str__(self):
         return self.title

@@ -3,7 +3,6 @@
 
 [![Python](https://img.shields.io/badge/Python-3.10+-blue.svg?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
 [![Django](https://img.shields.io/badge/Django-4.2+-092E20.svg?style=for-the-badge&logo=django&logoColor=white)](https://djangoproject.com)
-[![License](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
 Bu proje, Django MVT (Model-View-Template) mimarisi kullanılarak geliştirilmiş; dinamik içerik yönetimi, gelişmiş sayfalama (pagination) ve doğrudan SMTP entegrasyonlu bir iletişim yapısına sahip modern bir blog ve portfolyo web uygulamasıdır. Frontend tarafında HTML5 UP (Hyperspace) şablonu entegre edilerek modern ve duyarlı (responsive) bir arayüz sunulmuştur.
 
